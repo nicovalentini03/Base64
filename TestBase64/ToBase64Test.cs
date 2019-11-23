@@ -11,7 +11,7 @@ namespace TestBase64
         public void TestMethod1()
         {
             string risposta = Base64.EsBase64();
-            Assert.AreEqual("cgfidd34i", risposta);
+            Assert.AreEqual("Q2lhbw==", risposta);
         }
     }
 }

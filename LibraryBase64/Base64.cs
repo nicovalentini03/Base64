@@ -10,7 +10,7 @@ namespace LibraryBase64
     {
             public static string EsBase64()
             {
-                string toEncode = "nicolo";
+                string toEncode = "Ciao";
                 byte[] toEncodeAsBytes = ASCIIEncoding.ASCII.GetBytes(toEncode);
 
                 string returnValue = Convert.ToBase64String(toEncodeAsBytes);
